@@ -1,0 +1,89 @@
+#wtop .mtool{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+#wtop .mtool img{
+    height: 25px;
+    width: 25px;
+}
+ul a{
+    color: black;
+}
+ul .mmess{
+    height: 100px;
+}
+ul .mmess .mmess2{
+    height: 100px;
+    margin-top: 18px;
+
+}
+ul .mmess .mmess2 .mtop{
+    height: 70px;width: 70px;
+    margin-top: 10px;
+    float: left;
+}
+ul .mmess .mmess2 .mtop img{
+    height: 70px;width: 70px;
+    border-radius: 15px;
+}
+ul .mmess .mmess2 .mmess3{
+    height: 70px;width: 60%;
+    margin-top: 10px;
+    float: left;
+}
+ul .mmess .mmess3 .mfile span{
+    font-size: 20px;
+    font-family: 华文楷体;
+    margin-left: 20px;
+    line-height: 40px;
+}
+ul .mmess .mmess3 .mfile2 span{
+    font-size: 17px;
+    font-family: 华文楷体;
+    margin-left: 15px;
+    line-height: 20px;
+}
+ul .mmess .mmess2 .mtop .mtwo{
+    width: 28px;height: 20px;
+    float: right;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+}
+ul .mmess .mmess2 .mtop .mtwo img{
+    width: 20px;height: 20px;
+}
+ul .gap{
+    width: 100%;height: 15px;
+    background-color: #dcdcdc;
+}
+ul .mnews{
+    width: 100%;height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+ul .mnews .mpho{
+    width: 50px;height: 50px;
+    float: left;
+}
+ul .mnews .mpho .imgs{
+    width: 35px;height: 35px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+ul .mnews .mpho .imgs2{
+    width: 20px;height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+ul .mnews .syn{
+    width: 75%;height: 50px;
+    float: left;
+    border-bottom: gainsboro 1px solid;
+}
+ul .mnews .syn span{
+    font-size: 20px;
+    font-family: 华文楷体 ;
+    line-height: 50px;
+    margin-left: 5px;
+}

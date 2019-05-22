@@ -1,0 +1,30 @@
+ul a{
+    text-decoration-line: none;
+}
+ul a li{
+    height: 50px;
+    width: 90%;
+    margin: auto ;
+}
+ul a li div img{
+    height: 45px; width: 45px;
+    float: left;
+    border-radius: 10px;
+}
+ul a li div .xname{
+    font-family: 华文楷体;
+    font-size: 23px;
+    line-height: 50px;
+}
+ul a li .xpho img{
+    height: 45px;
+    width: 45px;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+ul li .ul2 li{
+    font-size: 13px;
+    font-family: 华文楷体 ;
+    font-style: italic;
+
+}

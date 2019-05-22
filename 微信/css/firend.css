@@ -1,0 +1,166 @@
+.fpho{
+    width:100%;height:220px;
+}
+.fpho img{
+    width:100%;height:220px;
+    position: absolute;
+}
+.fpho .jian{
+    /*border: red 1px solid;*/
+    width: 20px;height: 20px;
+    position: relative;
+    top: 5px;
+}
+.fpho .jian img{
+    width: 25px;height: 25px;
+    background-size: cover;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    float: left;
+}
+.fpho .jian2 img{
+    width: 25px;height: 25px;
+    background-size: cover;
+    position: fixed;
+    z-index: 2;
+    top: -5px;left: 340px;
+    /*float: left;*/
+}
+.fpho .span{
+    width: 100px;height: 50px;
+    font-family: 华文楷体;
+    font-size: 20px;
+    position: relative;
+    top: 25px;left: 35px;
+}
+.fpho .span2{
+    width: 100px;height: 50px;
+    font-family: 华文楷体;
+    font-size: 20px;
+    position: relative;
+    top: 95px;left: 210px;
+}
+.fpho .ftop{
+    width: 70px;height: 70px;
+    position: relative;
+    top: 140px;left: 215px;
+    border-radius: 15px;
+}
+.fxpho{
+    width:50px;height:50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.fxpho img{
+    width:50px;height:50px;
+     border-radius: 10px;
+}
+.fname{
+     height: 30px;
+     margin-top: 10px;
+     margin-left: 70px;
+}
+.fname span{
+     font-family: 华文楷体;
+     font-size: 20px;
+     margin-left: 5px;
+     line-height: 30px;
+     color: cornflowerblue;
+ }
+.fword{
+    margin-left: 70px;
+    -webkit-line-clamp:5 ;
+}
+.fword p{
+    width: 90%;
+    font-family: 华文楷体;
+    font-size: 20px;
+    margin-left: 5px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fpic{
+    margin-left: 70px;
+}
+.fpic img{
+    width:95px;height:95px;
+}
+.ffunction{
+    height: 30px;
+    position: relative;
+}
+.ffunction .fxtime{
+    width: 60px;height: 30px;
+    margin-left: 68px;
+}
+.ffunction .fxtime span{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 华文楷体;
+    color: gray;
+}
+.ffunction .fheart{
+    width: 60px;height: 30px;
+    float: right;
+    margin-top: -32px;
+}
+.ffunction .fheart input{
+    width: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+    border: none;/*按键无边框*/
+    background-color: darkgrey;/*按键的背景颜色*/
+}
+.ffunction .fheart .ftri-fun{
+     display: none;
+ }
+.ffunction .fheart .ftri-fun .triangle-up {
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-left: 10px solid black;
+      border-bottom: 5px solid transparent;
+      position: absolute;
+      right: 45px ;
+      top: 7px;
+  }
+.ffunction .fheart .ftri-fun .triangle-up2{
+    width: 35%;height: 50px;
+    background-color: black;
+    position: absolute;
+    right: 55px ;
+    top: -15px;
+    border-radius: 5px;
+}
+.ffunction .fheart .ftri-fun .triangle-up2 ul li{
+    float: left;
+}
+.ffunction .fheart .ftri-fun .triangle-up2 ul li img{
+    width: 30px;height: 30px;
+    position: relative;
+    top: 10px;
+    float: left;
+
+}
+.ffunction .fheart .ftri-fun .triangle-up2 ul li p{
+    font-size: 20px;
+    font-family: 华文楷体;
+    color: white;
+    position: relative;
+    top: 10px;
+
+}
+.ffunction .fheart input:hover+.ftri-fun{
+    display: block;
+}
+.kong{
+    width: 95%;
+    border-bottom: gainsboro 1px solid;
+    margin-top: 5px;
+    margin-left: 10px;
+}
